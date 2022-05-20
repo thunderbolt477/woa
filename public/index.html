@@ -10,7 +10,7 @@
         <title>Waves of Anxiety</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
 
@@ -74,16 +74,17 @@
         <section id="testimonials"></section>
         <section id="contact">
             <div class="container">
-                <form action="">
+                <form action="https://formsubmit.co/balilo.shawn@gmail.com method="POST">
+                    <input type="hidden" name="_captcha" value="false">
                     <label for="name">Name*</label>
                     <input type="text" id="name" name="name">
-                    <label for="email"></label>
+                    <label for="email">Email*</label>
                     <input type="email" id="email" name="email">
-                    <label for="subject"></label>
+                    <label for="subject">Subject*</label>
                     <input type="text" id="subject" name="subject">
-                    <label for="message"></label>
+                    <label for="message">Message</label>
                     <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
-                    <input type="submit">
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </section>
@@ -91,7 +92,7 @@
 
 
 
-
-        <script src="" async defer></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="js/app.js" async defer></script>
     </body>
 </html>
