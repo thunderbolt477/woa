@@ -1,4 +1,9 @@
-form {
+body {
+    height:100%;
+    background-color: #f6f4f0;
+}
+
+/* form {
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -7,4 +12,23 @@ form {
     max-width: 600px;
     border-radius: 10px;
     text-align: left;
+} */
+
+.paralax {
+    background-image: url(../img/worldoceans.jpeg);
+
+    height:100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav {
+    background-color:#74a2af;
+}
+
+#landing {
+    height:700px;
 }
