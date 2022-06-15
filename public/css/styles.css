@@ -8,16 +8,12 @@ body {
     background-color: #f6f4f0;
 }
 
-/* form {
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 2vw 4vw;
-    width: 90%;
-    max-width: 600px;
-    border-radius: 10px;
-    text-align: left;
-} */
+header {
+    text-align: center;
+    padding: 3%;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 .paralax {
     background-image: url(../img/worldoceans.jpeg);
@@ -42,10 +38,24 @@ body {
     
 }
 
+#main {
+    text-align: center;
+    padding-top:10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#main h1 {
+    font-size: 4rem;
+}
+
 #about {
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-bottom:0;
+    background-color:#74a2af;
+    padding: 5% 0;
 }
+
+
 
 .about {
     width:30%;
@@ -58,6 +68,33 @@ body {
 .about h2{
     text-align: center;
 }
+
+.about-text{
+    text-align: center;
+    margin:10% 0 3% 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#session {
+    background-image: url(../img/worldoceans.jpeg);
+    height:100%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 10%;
+}
+
+.session {
+    color:#f6f4f0;
+    font-family: 'EB Garamond', serif;
+    padding: 7% 25%;
+}
+.session h2 {
+    font-size: 3rem;
+    padding-bottom: 2%;
+}
+
 .img-container {
     width: 600px;
     height: 500px;
@@ -149,5 +186,11 @@ a:hover {
     margin:2rem;
     text-align:center;
 }
+
+footer {
+    text-align:center;
+    padding: 3% 0 3%;
+}
+
 
 /* #005371 */
