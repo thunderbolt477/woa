@@ -95,13 +95,23 @@ header {
     padding-bottom: 2%;
 }
 
-.img-container {
+.about-img {
     width: 600px;
     height: 500px;
     overflow: hidden;
 }
 .img-container img {
     height: 100%;
+}
+
+.hello {
+    text-align: center;
+}
+.hello-img {
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+    object-fit: fill;
 }
 
 a {
