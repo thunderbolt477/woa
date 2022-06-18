@@ -106,12 +106,16 @@ header {
 
 .hello {
     text-align: center;
+    justify-content: center;
+    margin-top:10%;
+    padding-left: 5%;
 }
 .hello-img {
     width: 600px;
     height: 500px;
     overflow: hidden;
     object-fit: fill;
+    margin-left:7%;
 }
 
 a {
